@@ -1,21 +1,21 @@
-# 🎮 AI Temple Run Controller
+# AI Temple Run Controller
 
-A Computer Vision project that allows you to play _Temple Run_ using only hand gestures. Built with Python, OpenCV, and MediaPipe.
+A Computer Vision project I made that allows you to play _Temple Run_ using only hand gestures. Built with Python, OpenCV, and MediaPipe.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python 3.11
 - **Vision:** OpenCV & Google MediaPipe
 - **Automation:** PyAutoGUI
 
-## ✨ Features
+## Features
 
 - **Jump:** Open your hand (5 fingers).
 - **Slide:** Make a fist (0 fingers).
 - **Turn Left/Right:** Move your hand to the screen edges.
 - **Smooth Control:** Uses a stability buffer to prevent jittery inputs.
 
-## 🚀 How to Run
+## How to Run
 
 1.  Clone the repository:
     ```bash
@@ -32,7 +32,7 @@ A Computer Vision project that allows you to play _Temple Run_ using only hand g
     ```
 4.  Open [Temple Run Web](https://poki.com/en/g/temple-run-2) and start playing!
 
-## 🧠 How it Works
+## How it Works
 
 1.  **Detection:** Uses MediaPipe to track 21 hand landmarks in real-time.
 2.  **Logic:** Calculates finger states (folded vs. open) and wrist position (X-coordinates).
